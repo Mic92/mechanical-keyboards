@@ -3,7 +3,8 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
     zmk-nix = {
-      url = "github:lilyinstarlight/zmk-nix";
+      #url = "github:lilyinstarlight/zmk-nix";
+      url = "github:Mic92/zmk-nix/west-build-flags";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -20,9 +21,10 @@
         src = nixpkgs.lib.traceVal (builtins.toString (nixpkgs.lib.sourceFilesBySuffices self [ ".conf" ".keymap" ".dtsi" ".yml" ]));
 
         board = "nice_nano_v2";
-        shield = "splitkb_aurora_sofle_%PART%";
+        shield = "splitkb_aurora_sofle_%PART% nice_view_adapter nice_view";
+        westBuildFlags = ["-S" "zmk-usb-logging"];
 
-        zephyrDepsHash = "sha256-n7xX/d8RLqDyPOX4AEo5hl/3tQtY6mZ6s8emYYtOYOg=";
+        zephyrDepsHash = "sha256-G4Vy8DdUXax7lKcZZhMuOMIjnPKlnc2jx6UWM+fOW8Q=";
 
         meta = {
           description = "ZMK firmware";

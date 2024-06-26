@@ -29,15 +29,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1719102649,
-        "narHash": "sha256-7I8RkvpWQ6ArheKdUrPou9IPXXVgs12JqdArFClg860=",
-        "owner": "lilyinstarlight",
+        "lastModified": 1719429899,
+        "narHash": "sha256-4avhy9WWpDwKD+lXM18f2BlPDh95Wdd6lifFXklFO+Y=",
+        "owner": "Mic92",
         "repo": "zmk-nix",
-        "rev": "829adef3fb59b152be10cef6b733124ba6c7882f",
+        "rev": "84a1ebb5592cd7ea5b07239ec0ae470e7a168892",
         "type": "github"
       },
       "original": {
-        "owner": "lilyinstarlight",
+        "owner": "Mic92",
+        "ref": "west-build-flags",
         "repo": "zmk-nix",
         "type": "github"
       }
