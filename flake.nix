@@ -24,7 +24,7 @@
         shield = "splitkb_aurora_sofle_%PART% nice_view_adapter nice_view";
         westBuildFlags = ["-S" "zmk-usb-logging"];
 
-        zephyrDepsHash = "sha256-G4Vy8DdUXax7lKcZZhMuOMIjnPKlnc2jx6UWM+fOW8Q=";
+        zephyrDepsHash = "sha256-CmSXiI9aD8xBlRbq4rFMHHwjWkoRGetcdtqS8xGZkas=";
 
         meta = {
           description = "ZMK firmware";
