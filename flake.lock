@@ -2,18 +2,19 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1747060738,
-        "narHash": "sha256-ByfPRQuqj+nhtVV0koinEpmJw0KLzNbgcgi9EF+NVow=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "eaeed9530c76ce5f1d2d8232e08bec5e26f18ec1",
-        "type": "github"
+        "lastModified": 1746861386,
+        "narHash": "sha256-Pv2vFY1VjqXmZKpXR1A9Zy1awIi48+s1qIYj/5u5hEQ=",
+        "ref": "main",
+        "rev": "6a44a8cecaaf2f2317825403a109f19aa60dcf4a",
+        "shallow": true,
+        "type": "git",
+        "url": "https://github.com/Mic92/nixpkgs"
       },
       "original": {
-        "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
+        "ref": "main",
+        "shallow": true,
+        "type": "git",
+        "url": "https://github.com/Mic92/nixpkgs"
       }
     },
     "root": {
@@ -29,16 +30,15 @@
         ]
       },
       "locked": {
-        "lastModified": 1719429899,
-        "narHash": "sha256-4avhy9WWpDwKD+lXM18f2BlPDh95Wdd6lifFXklFO+Y=",
-        "owner": "Mic92",
+        "lastModified": 1746924006,
+        "narHash": "sha256-Pp050QkxAbLxoh4sc0mS4uzvKG0bJuxUgWbTv6/dqfQ=",
+        "owner": "lilyinstarlight",
         "repo": "zmk-nix",
-        "rev": "84a1ebb5592cd7ea5b07239ec0ae470e7a168892",
+        "rev": "f93731071bd061b51fe82f61b01fb0f03523c5df",
         "type": "github"
       },
       "original": {
-        "owner": "Mic92",
-        "ref": "west-build-flags",
+        "owner": "lilyinstarlight",
         "repo": "zmk-nix",
         "type": "github"
       }
