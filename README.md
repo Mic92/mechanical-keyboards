@@ -29,3 +29,7 @@ $ qmk flash -kb keychron/q12/ansi_encoder -km default
 ```
 $ nix run .#flash --builders ""
 ```
+
+## Sofle Choc Pro
+
+-
