@@ -2,10 +2,10 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1750619564,
-        "narHash": "sha256-hVpwvD7TVU327dow2dU5vAiuS9iI/Dsb204HnP7gfZI=",
+        "lastModified": 1750839059,
+        "narHash": "sha256-cQDDoP5MENG8v21znU8i7wvvyTrZBnkoUKQJ9+fIz6Y=",
         "ref": "main",
-        "rev": "d59c511e022051c885d465262947d2491cb04258",
+        "rev": "3fb96b38b101113e77512b20448459a34b81cdff",
         "shallow": true,
         "type": "git",
         "url": "https://github.com/Mic92/nixpkgs"
@@ -30,11 +30,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1750552997,
-        "narHash": "sha256-Z4OBpakNpNMHgShYXLR3pNj6APa42FTHgUE6XHbdC0w=",
+        "lastModified": 1751157836,
+        "narHash": "sha256-xm8szC6nTDiV05ccV0cWMlRQmtmo5Ikw3r1atMjFp4g=",
         "owner": "lilyinstarlight",
         "repo": "zmk-nix",
-        "rev": "6bb8ec3ff80000fd34af125cfeffd5bf2da98a04",
+        "rev": "9851a9b29d35e77da465406e8b8d8dbee36c79d7",
         "type": "github"
       },
       "original": {
